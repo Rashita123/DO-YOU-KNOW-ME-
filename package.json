@@ -1,0 +1,23 @@
+{
+  "name": "FavorableAnotherSearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rashita123/DO-YOU-KNOW-ME-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rashita123/DO-YOU-KNOW-ME-/issues"
+  },
+  "homepage": "https://github.com/Rashita123/DO-YOU-KNOW-ME-#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
