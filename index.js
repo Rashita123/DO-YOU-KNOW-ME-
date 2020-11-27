@@ -15,16 +15,29 @@ function play(question, answer){
   }
 }
 
-questionOne="Where do I live? ";
-answerOne="Ferozepur";
 
 var quest_ans = [
-  Two={
-    question="What language I am currently into? ";
-    answer="JavaScript";
+  {
+  quest: "Do you know my Best Friend's name? ",
+  ans: "Swastika",
+  },
+  {
+    quest: "What do you think I love doing? (cooking Or coding) ",
+    ans: "coding",
+  },
+  {
+    quest:"Which language I am currently into? (JAVA Or JavaScript)",
+    ans: "JavaScript"
+  },
+  {
+    quest: "Which language is used to make this fun Game? ",
+    ans: "JavaScript"
   }
-]
+];
 for(var i=0;i<quest_ans.length;i++)
 {
-  play(quest_ans[i].question,quest_ans[i].answer);
+  play(quest_ans[i].quest,quest_ans[i].ans);
 }
+
+console.log("Hey!! Your final score is: "+score);
+console.log("Congrats! This is how much you know me ;-)");
