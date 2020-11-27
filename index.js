@@ -1,18 +1,24 @@
 var readlineSync=require('readline-sync');
 
-var name=readlineSync.question('Hey! Whats your name? ');
-console.log('Welcome '+name+' to [DO YOU KNOW Rashita]- Game!');
-console.log("lets Play!");
+const chalk=require('chalk');
+
+var name=readlineSync.question(chalk.red('Hey! Whats your name? '));
+console.log();
+console.log(chalk.cyan('Welcome '+chalk.red(name)+' to '+chalk.red('[DO YOU KNOW Rashita]')+ ' Game!'));
+console.log();
+console.log(chalk.cyan("lets Play!"));
+
+console.log("************************************");
 
 console.log();
 var score=0;
 function play(question, answer){
-  var user_ans=readlineSync.question(question);
+  var user_ans=readlineSync.question(chalk.red(question));
   if(user_ans===answer){
-    console.log("You are Right! ");
+    console.log(chalk.cyan("You are Right! "));
     score++;
   }else{
-    console.log("Oops! You are wrong!");
+    console.log(chalk.blue.bgGreen("Oops! You are wrong!"));
   }
 }
 
@@ -40,6 +46,7 @@ for(var i=0;i<quest_ans.length;i++)
   play(quest_ans[i].quest,quest_ans[i].ans);
   console.log("----------------------");
 }
-
-console.log("Hey!! Your final score is: "+score);
-console.log("Congrats! This is how much you know me ;-)");
+console.log();
+console.log(chalk.cyan("Hey!! Your final score is: "+chalk.red(score)));
+console.log();
+console.log(chalk.blue.bgGreen("Congrats! This is how much you know me ;-)"));
