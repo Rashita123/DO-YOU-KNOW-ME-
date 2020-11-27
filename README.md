@@ -3,3 +3,5 @@ This is a fun CLI application, made using JavaScript. Cummon Friends! You can ch
 
 --> You can find the link to the Fun Game at the right panel
 --> Just click on the run button at the bottom right and you are good to go!
+
+Designing for this quiz game is done using *Chalk*
