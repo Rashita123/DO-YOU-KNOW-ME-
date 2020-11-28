@@ -53,7 +53,7 @@ var quest_ans = [
   },
   {
     quest: "Which language is used to make this fun Game? ",
-    ans: ["JavaScript","javascript","Javacript"]
+    ans: ["JavaScript","javascript","Javascript"]
   }
 ];
 for(var i=0;i<quest_ans.length;i++)
