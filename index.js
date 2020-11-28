@@ -1,3 +1,7 @@
+var figlet=require('figlet');
+console.log(figlet.textSync('Hello Friend!', { horizontalLayout: 'full' }));
+
+
 var readlineSync=require('readline-sync');
 
 const chalk=require('chalk');
