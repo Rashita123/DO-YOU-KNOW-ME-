@@ -25,6 +25,10 @@ function play(question, answer){
 
 var quest_ans = [
   {
+    quest:"Who is more close to me? (Mom Or Mad Angles ;-)",
+    ans: "Mom",
+  },
+  {
   quest: "Do you know my Best Friend's name? ",
   ans: "Swastika",
   },
