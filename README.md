@@ -4,4 +4,8 @@ This is a fun CLI application, made using JavaScript. Cummon Friends! You can ch
 --> You can find the link to the Fun Game at the right panel
 --> Just click on the run button at the bottom right and you are good to go!
 
-Designing for this quiz game is done using *Chalk*
+I have used:
+
+1. JavaScript --> For the logic Part
+2. Chalk --> For the styling (adding colors to the text and highlighting text)
+3. figlet --> To create ASCII art from text
