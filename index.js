@@ -14,10 +14,17 @@ console.log();
 var score=0;
 function play(question, answer){
   var user_ans=readlineSync.question(chalk.red(question));
-  if(user_ans===answer){
+  var flag=false;
+
+  for(var i=0;i<answer.length;i++){
+    if(user_ans===answer[i]){
     console.log(chalk.cyan("You are Right! "));
     score++;
-  }else{
+    flag=true;
+    }
+  }
+  
+  if(flag===false){
     console.log(chalk.blue.bgGreen("Oops! You are wrong!"));
   }
 }
@@ -26,23 +33,23 @@ function play(question, answer){
 var quest_ans = [
   {
     quest:"Who is more close to me? (Mom Or Mad Angles ;-)",
-    ans: "Mom",
+    ans: ["Mom","mom"],
   },
   {
   quest: "Do you know my Best Friend's name? ",
-  ans: "Swastika",
+  ans: ["Swastika","swastika"],
   },
   {
     quest: "What do you think I love doing? (cooking Or coding) ",
-    ans: "coding",
+    ans: ["Coding","coding"],
   },
   {
     quest:"Which language I am currently into? (JAVA Or JavaScript)",
-    ans: "JavaScript"
+    ans: ["JavaScript","javascript","Javscript"]
   },
   {
     quest: "Which language is used to make this fun Game? ",
-    ans: "JavaScript"
+    ans: ["JavaScript","javascript","Javscript"]
   }
 ];
 for(var i=0;i<quest_ans.length;i++)
