@@ -1,5 +1,5 @@
 var clear=require('clear');
-
+clear();
 var figlet=require('figlet');
 console.log(figlet.textSync('Hello Friend!', { horizontalLayout: 'full' }));
 
