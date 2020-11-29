@@ -7,5 +7,9 @@ This is a fun CLI application, made using JavaScript. Cummon Friends! You can ch
 I have used:
 
 1. JavaScript --> For the logic Part
-2. Chalk --> For the styling (adding colors to the text and highlighting text)
-3. figlet --> To create ASCII art from text
+
+npm Modules used: 
+
+1. Chalk --> For the styling (adding colors to the text and highlighting text)
+2. figlet --> To create ASCII art from text.
+3. boxen --> To make a box to display score at the end.
