@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Rashita123/DO-YOU-KNOW-ME-#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "clear": "^0.1.0",
     "colors": "^1.4.0",
     "figlet": "^1.5.0",
     "readline-sync": "^1.4.10"

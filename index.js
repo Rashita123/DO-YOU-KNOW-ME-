@@ -1,3 +1,5 @@
+var clear=require('clear');
+
 var figlet=require('figlet');
 console.log(figlet.textSync('Hello Friend!', { horizontalLayout: 'full' }));
 
@@ -62,6 +64,11 @@ for(var i=0;i<quest_ans.length;i++)
   console.log("----------------------");
 }
 console.log();
-console.log(chalk.cyan("Hey!! Your final score is: "+chalk.red(score)));
+
+console.log(figlet.textSync('Score: '+score+"/"+quest_ans.length, { horizontalLayout: 'full' }));
+
+
+
+
 console.log();
-console.log(chalk.blue.bgGreen("Congrats! This is how much you know me ;-)"));
+console.log(chalk.blue("This is how much you know me 😉"));
